@@ -20,6 +20,8 @@
 
 #include <unity/util/ResourcePtr.h>
 
+#include <functional>
+
 using namespace std;
 namespace util = unity::util;
 
