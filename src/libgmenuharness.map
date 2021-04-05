@@ -1,11 +1,11 @@
 {
 global:
     extern "C++" {
-        unity::gmenuharness::[!i]*;
-        typeinfo?for?unity::gmenuharness::[!i]*;
-        typeinfo?name?for?unity::gmenuharness::[!i]*;
-        vtable?for?unity::gmenuharness::[!i]*;
-        VTT?for?unity::gmenuharness::[!i]*;
+        lomiri::gmenuharness::[!i]*;
+        typeinfo?for?lomiri::gmenuharness::[!i]*;
+        typeinfo?name?for?lomiri::gmenuharness::[!i]*;
+        vtable?for?lomiri::gmenuharness::[!i]*;
+        VTT?for?lomiri::gmenuharness::[!i]*;
     };
 local:
     extern "C++" {

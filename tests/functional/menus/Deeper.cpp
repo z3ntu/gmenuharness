@@ -16,7 +16,7 @@
  * Author: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <unity/gmenuharness/MatchUtils.h>
+#include <lomiri/gmenuharness/MatchUtils.h>
 
 #include <glib-object.h>
 #include <gio/gio.h>
@@ -24,7 +24,7 @@
 #include <memory>
 
 using namespace std;
-using namespace unity::gmenuharness;
+using namespace lomiri::gmenuharness;
 
 pair<shared_ptr<GMenu>, shared_ptr<GSimpleActionGroup>>
 createMenu()

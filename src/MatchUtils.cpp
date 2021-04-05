@@ -16,16 +16,16 @@
  * Authored by: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <unity/gmenuharness/MatchUtils.h>
+#include <lomiri/gmenuharness/MatchUtils.h>
 
-#include <unity/util/ResourcePtr.h>
+#include <lomiri/util/ResourcePtr.h>
 
 #include <functional>
 
 using namespace std;
-namespace util = unity::util;
+namespace util = lomiri::util;
 
-namespace unity
+namespace lomiri
 {
 
 namespace gmenuharness
@@ -73,4 +73,4 @@ void gvariant_deleter(GVariant* varptr)
 
 }   // namespace gmenuharness
 
-}   // namespace unity
+}   // namespace lomiri

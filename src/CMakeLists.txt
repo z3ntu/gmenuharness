@@ -1,5 +1,5 @@
-pkg_check_modules(UNITY_API libunity-api>=0.1.3 REQUIRED)
-include_directories(${UNITY_API_INCLUDE_DIRS})
+pkg_check_modules(LOMIRI_API liblomiri-api>=0.1.1 REQUIRED)
+include_directories(${LOMIRI_API_INCLUDE_DIRS})
 
 add_library(
     ${GMENU_HARNESS} SHARED

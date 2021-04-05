@@ -16,7 +16,7 @@
  * Author: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <unity/gmenuharness/MenuMatcher.h>
+#include <lomiri/gmenuharness/MenuMatcher.h>
 
 #include <gtest/gtest.h>
 
@@ -28,7 +28,7 @@
 
 using namespace std;
 using namespace QtDBusTest;
-namespace mh = unity::gmenuharness;
+namespace mh = lomiri::gmenuharness;
 
 namespace
 {

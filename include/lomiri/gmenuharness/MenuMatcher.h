@@ -25,13 +25,13 @@ do {\
                       GTEST_NONFATAL_FAILURE_) << result.concat_failures().c_str(); \
 } while (0)
 
-#include <unity/gmenuharness/MatchResult.h>
-#include <unity/gmenuharness/MenuItemMatcher.h>
+#include <lomiri/gmenuharness/MatchResult.h>
+#include <lomiri/gmenuharness/MenuItemMatcher.h>
 
 #include <memory>
 #include <vector>
 
-namespace unity
+namespace lomiri
 {
 
 namespace gmenuharness
@@ -90,6 +90,7 @@ protected:
     std::shared_ptr<Priv> p;
 };
 
-}   // gmenuharness
+}   // namespace gmenuharness
 
-}   // unity
+}   // namespace lomiri
+

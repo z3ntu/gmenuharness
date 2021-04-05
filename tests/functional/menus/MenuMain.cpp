@@ -16,8 +16,8 @@
  * Author: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <unity/gmenuharness/MatchUtils.h>
-#include <unity/util/ResourcePtr.h>
+#include <lomiri/gmenuharness/MatchUtils.h>
+#include <lomiri/util/ResourcePtr.h>
 
 #include <glib-object.h>
 #include <gio/gio.h>
@@ -28,8 +28,8 @@
 #include <functional>
 
 using namespace std;
-using namespace unity::util;
-using namespace unity::gmenuharness;
+using namespace lomiri::util;
+using namespace lomiri::gmenuharness;
 
 static gboolean
 onSignal(gpointer data)

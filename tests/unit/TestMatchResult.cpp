@@ -16,12 +16,12 @@
  * Author: Pete Woods <pete.woods@canonical.com>
  */
 
-#include <unity/gmenuharness/MatchResult.h>
+#include <lomiri/gmenuharness/MatchResult.h>
 
 #include <gtest/gtest.h>
 
 using namespace std;
-namespace mh = unity::gmenuharness;
+namespace mh = lomiri::gmenuharness;
 
 namespace
 {
